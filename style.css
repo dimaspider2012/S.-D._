@@ -1,0 +1,20 @@
+body {
+    font-size: 15pt;
+    background: black;
+}
+#1515{
+ width: 50px;
+height: 50px;
+ }
+ .hidden{
+   background: white;
+   opacity: 0;
+ }
+.hidden show{
+   opacity: 100;
+   z-index: 100000;
+ }
+ table {
+   background: white;
+   color: #000;
+ }
