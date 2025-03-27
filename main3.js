@@ -13,6 +13,8 @@ buttonlog.addEventListener("click", () => {
     window.location.href = "4.html";
   } else {
     console.log("Error, we cannot find this login");
+    message.style.textContent = "Error, we cannot find this login"
+    message.style.color = "red"
   }
 });
 
