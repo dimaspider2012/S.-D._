@@ -2,7 +2,7 @@ const buttonlog = document.querySelector(".buttonlog");
 const buttonlogB = document.querySelector(".buttonlogB");
 const login = document.querySelector("#login"); // Замість #login вставте правильний селектор
 const password = document.querySelector("#password"); // Замість #password вставте правильний селектор
-
+const message = document.querySelector(".message")
 buttonlog.addEventListener("click", () => {
   if (login.value === "" || password.value === "") {
     console.log("Будь ласка, заповніть всі поля.");
